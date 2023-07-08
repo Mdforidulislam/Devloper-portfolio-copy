@@ -1,0 +1,157 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Banner section css */
+.header{
+    background-color: #FFF8F3;
+    background-image: url("./header_bg.png") , url("./developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+
+}
+.banner-section {
+    display: flex;
+    margin: 0px 150px;
+}
+.banner-greating {
+    color: #474747;
+    font-size: 35px;
+}
+.banner-title {
+    color: #181818;
+    font-size: 65px;
+}
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;  
+}
+/* logo customization*/
+.logo-color-chage{
+    color: #FD6E0A;
+    font-size: 45px; 
+}
+.logo-customization{
+    color: #181818;
+    font-size: 45px; 
+}
+/* nav ber section design css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    align-items: center;
+
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    margin:12px;
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn-primary{
+        padding: 18px 35px;
+        color: white;
+        border-radius: 5px;
+        background: #FD6E0A; 
+        border: 0px;       
+}
+/* about section design part*/
+.about-us {
+    max-width: 800px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    margin:120px auto;
+
+}
+.about-title ,.about-descritption{
+    text-align: center;
+}
+.about-info-containter{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: space-around;
+}
+/* service section*/
+.what-i-do{
+    max-width: 1200px;
+    border-radius: 10px;
+    padding: 10px 150px;
+    margin: 10px auto;
+}
+.what-ido--title ,.what-ido-description{
+    text-align: center;
+}
+.what-service-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.what-ido--title ,.what-ido-description{
+    text-align: center;
+    padding: 15px 0px;
+}
+.my-service{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    color:black;
+    padding: 30px;
+}
+
+/* infomation section design*/
+.information-section{
+    max-width: 1200px;
+    border-radius: 10px;
+    padding: 10px 150px;
+    margin: 100px auto;
+}
+.info-title{
+    text-align: center;
+    padding-bottom: 23px;
+}
+.info-controler-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    align-items: center;
+}
+.customization-btn {
+        margin: 50px auto;
+        display: flex;
+    }
+
+
+/*Footer infomation desing */
+
+.main-footer{
+    display: flex;
+    max-width: 1200px;
+    padding: 10px 150px;
+    margin: 0px auto;
+    gap: 50px;
+    background-color: #FFF8F3;
+}
+.contact-info input[type="text"],
+ .contact-info input[type="email"],
+  textarea{
+    display: block;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    padding:18px ;
+    margin:15px 0px;
+    width: 100%;
+}
